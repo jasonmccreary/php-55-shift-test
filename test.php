@@ -1,5 +1,5 @@
 <?php
-datefmt_set_timezone_id('stuff');
+datefmt_set_timezone('stuff');
 
 unpack('stuff', 'data');
 set_error_handler('unpack');
@@ -11,7 +11,7 @@ ereg_replace('stuff', 'here', 'there');
 
 ini_set('magic_quotes_gpc', 5);
 
-$obj->setTimeZoneID();
+$obj->setTimeZone();
 
 mcrypt_cbc('cipher', 'key', 'data', MCRYPT_ENCRYPT);
 mcrypt_cfb('cipher', 'key', 'data', MCRYPT_ENCRYPT);
