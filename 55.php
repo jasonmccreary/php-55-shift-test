@@ -1,4 +1,6 @@
 <?php
+array(1, 2, 3);
+
 datefmt_set_timezone_id('stuff');
 
 unpack('stuff', 'data');
