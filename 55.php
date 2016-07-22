@@ -1,5 +1,5 @@
 <?php
-array(1, 2, 3);
+[1, 2, 3];
 
 datefmt_set_timezone('stuff');
 
