@@ -1,5 +1,5 @@
 <?php
-array(1, 2, 3);
+[1, 2, 3];
 
 crypt('with', 'salt');
 crypt('without');
